@@ -1,0 +1,140 @@
+*{  
+  
+    font-family: montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+#index{
+    background-color:#fff;
+    font-family: Montserrat;
+    color: white;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 1%;
+    font-family: Ubuntu;
+    color: transparent;
+}
+#pic1{
+    height: 500px;
+}
+.heading{
+    padding: 10px 30px;
+    font-weight: bold;
+}
+.btn{
+    padding: 0 30px;
+    margin-left: 30px;
+}
+.iphone{
+    padding-left: 50px;
+    margin-top: 50px;
+    padding-top: 5%;
+    position: relative;
+    top: -0px;
+    /* left: 150px; */
+  
+}
+.benifits{
+    text-align: center;
+    padding: 10% 15%;  
+}
+p{
+    color: grey;
+}
+.symbol:hover{
+    color:grey;
+    cursor: pointer;
+}
+h3{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.car{
+    background-color:black ;
+    text-align: center;
+   color: white;
+   font-weight: bold;
+}
+.abt{
+    margin-top: 4px;
+    text-align: center;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.cat1{
+    width: 10%;
+    border-radius: 100%;
+}
+.cat2{
+    padding: 7% 15%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.b{
+    height:140px ;
+}
+.a{
+    height: 140px;
+}
+.c{
+    height: 140px;
+    width: 0;
+}
+#card-section{
+    text-align: center;
+    padding:100px ;
+}
+.Card-column{
+    padding: 3% 2%;
+}
+#abc{
+    font-weight: bold;
+    font-size: 40px;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#cta{
+    background-color:black ;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: "Montserrat-Black";
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+@media (max-width: 991px){
+    .heading{
+        text-align: center;
+    }
+    .iphone{
+        position: relative;
+       
+    }
+}
